@@ -29,3 +29,5 @@ const Homepage = () => {
 };
 
 export default Homepage;
+
+<!--Yuanyuan: It is impressive that you have chosen to insert the search bar as a component, which is efficient.-->
