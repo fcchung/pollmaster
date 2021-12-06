@@ -27,7 +27,6 @@ Website for project 3 in [CS5610 Web Development](https://johnguerra.co/classes/
 
 
 
-
 ## Tech requirements
 
 - The home page should be able to open on most browser
