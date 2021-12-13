@@ -29,6 +29,8 @@ const UserLoginPage = ({ setLogin }) => {
   let [errorMessage, setMessage] = useState(null);
   let loginFormRef = useRef();
 
+  // Yuanyuan: It is thoughtful that you have added this small feature, which enables users to see the password when they want.
+  // Yuanyuan: Although it is a small aspect, it shows your consideration of usability.
   //Show password when check box
   const togglePassword = (e) => {
     e.preventDefault();
