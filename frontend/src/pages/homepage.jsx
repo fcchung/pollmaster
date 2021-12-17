@@ -78,7 +78,7 @@ const Homepage = () => {
       )}
       {pollList && <PollList polls={pollList} pagesize={5} />}
       {error && <ToastMessage show={true} message={error} setMessage={setError} type="Error" />}
-      {!connected && <div className="text-center">Unable to load polls</div>}
+      {!connected && <div className="text-center">Unable to load polls</div>} 
     </div>
   );
 };
