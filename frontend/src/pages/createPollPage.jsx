@@ -24,7 +24,7 @@ const CreatePollPage = ({ hasUser }) => {
   const handleRedirect = (to) => {
     navigate(to);
   };
-
+ 
   useEffect(() => {
     if (!hasUser) {
       // setRedirect("/login");
