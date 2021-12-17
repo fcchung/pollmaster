@@ -9,7 +9,7 @@ import ToastMessage from "../components/toastMessage";
 import useRedirect from "../hooks/useRedirect";
 import "../stylesheets/registrationPage.css";
 
-// From stack overflow
+// From stack overflow 
 const validateEmail = (email) => {
   const re =
     /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
