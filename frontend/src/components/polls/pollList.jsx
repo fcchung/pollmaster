@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 
 const sortFcn = (a, b, sortIndex, order) => {
   return order * (a[sortIndex] - b[sortIndex]);
-};
+}; 
 
 const PollList = ({ polls, pagesize }) => {
   const PAGESIZE = pagesize;
