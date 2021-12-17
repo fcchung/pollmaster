@@ -61,7 +61,7 @@ router.get("/:pollId/vote", async (req, res) => {
   }
   res.status(statusCode).json({ message: message });
 });
-
+ 
 router.post("/create-poll", async (req, res) => {
   let newPoll = { owner: req.body.owner, title: req.body.title, public: req.body.public === "true" };
   newPoll.options = req.body.options.map((value) => {
