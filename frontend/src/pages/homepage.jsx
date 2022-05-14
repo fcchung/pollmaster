@@ -28,8 +28,10 @@ const Homepage = () => {
         });
 
         let polls = [];
-        for (let i = 0; i < featureNumber; i++) {
-          polls.push(json[randomNum(json.length)]);
+        if (json.length > 0) {
+          for (let i = 0; i < featureNumber; i++) {
+            polls.push(json[randomNum(json.length)]);
+          }
         }
         setConnected(true);
         setPollList(polls);
